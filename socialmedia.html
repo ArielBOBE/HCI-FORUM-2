@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: #f44336;
+            text-align: center;
+        }
+        tr, th {
+            color: black;
+        }
+        .none {
+            color:#f44336
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+          $(".link").click(function(){
+            alert("You are being redirected to another website");
+          });
+        });
+    </script>
+</head>
+<body>
+    <div class="w3-container w3-red">
+        <h1>Ariel Prandi Darmawidjaja</h1>
+        <p>2702337584 - L1BC</p>
+    </div>
+    <div class="w3-bar w3-green">
+        <a href="index.html"class="w3-bar-item w3-button">About Me</a>
+        <a href="socialmedia.html" class="w3-bar-item w3-button">Social Media</a>
+        <a href="education.html" class="w3-bar-item w3-button">Education</a>
+    </div>
+    <div class="w3-container w3-blue" style="padding:3%; padding-bottom: 20%;">
+        <table class="w3-table-all w3-centered">
+        <tr>
+            <th>Socials</th>
+            <th>Tag</th>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" style="width:10%;max-width:320px;" class="instagram"></td>
+            <td><a href="https://www.instagram.com/ariel.human/" target=”_blank” class="link">@ariel.human</a></td>
+        </tr>
+        <tr>
+            <td><img src="https://static.vecteezy.com/system/resources/thumbnails/023/986/704/small/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" style="width:10%;max-width:320px;" class="youtube"></td>
+            <td><a href="https://www.youtube.com/channel/UCbSYtAwE95fYDVg6J7n4MTg" target=”_blank” class="link">Popo</a></td>
+        </tr>
+        </table>
+    </div>
+    <div class="w3-container w3-red bob">
+        <h1 class="none">sda</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".hobby2").hide()
+            $("h2").click(function(){
+                $(".hobby2").animate({height:'toggle'});
+            });
+        });
+    </script>
+    <style>
+        body {
+            text-align: center;
+            background-color:#f44336;
+        }
+        ul {
+            list-style-type: none;
+        }
+        h2 {
+            border: solid;
+            border-radius: 100px;
+            background-color: black;
+        }
+        h2:hover{
+            background-color: white;
+            border: solid black;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="w3-container w3-red">
+        <h1>Ariel Prandi Darmawidjaja</h1>
+        <p>2702337584 - L1BC</p>
+    </div>
+    <div class="w3-bar w3-green">
+        <a href="index.html"class="w3-bar-item w3-button">About Me</a>
+        <a href="socialmedia.html" class="w3-bar-item w3-button">Social Media</a>
+        <a href="education.html" class="w3-bar-item w3-button">Education</a>
+    </div>
+        <div class="w3-center w3-container w3-blue">
+            <img src="https://cdn.discordapp.com/attachments/876767435309604943/1164988425305342105/image.png?ex=65453705&is=6532c205&hm=1f28904bae4c371f7f8cd7f362a7d50920418eaaa62020e9bb07325ef04883d3&" title="Ariel" style="width:80%;max-width:320px;margin-top: 3%" class="w3-circle">
+            <div class="w3-border w3-indigo" style="margin-top: 3%; margin-bottom: 3%;" >
+                <p>My name is Ariel Prandi Darmawidjaja. I was born in a hospital, raised by a family, and studied at a school.<br>
+                        I have a few hobbies, but most of all I like partaking in them. I am 17 years old because I was born 17 years ago.<br>
+                        I am currently a student studying in a university.
+                </p>
+            </div>
+        </div>
+    <div class="w3-container w3-red bob">
+        <ul><h2>Hobbies</h2>
+            <div class="hobby2">
+                <li class="hobby">Basketball</li>
+                <li class="hobby">Sleeping</li>
+                <li class="hobby">Eating</li>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
